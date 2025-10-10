@@ -14,6 +14,5 @@ $books = [
         "pages" => 320
     ]
     // More books will be added here...
-
 ];
 
