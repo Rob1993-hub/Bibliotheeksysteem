@@ -1,18 +1,33 @@
 <?php
 
 // Global array of authors (simple array)
-$authors = ["J.K. Rowling", "Stephen King", "Dan Brown"];
+$authors = ["Blake Crouch", "Andy Weir", "Phil K. Dick"];
 
 // Global array of books (multi-dimensional array)
 $books = [
     [
-        "title" => "Harry Potter",
-        "author" => "J.K. Rowling",
-        "isbn" => "978-1234567890",
-        "publisher" => "Bloomsbury",
-        "publication_date" => "1997-06-26",
+        "title" => "Dark Matter",
+        "author" => "Blake Crouch",
+        "isbn" => "978-1101904220",
+        "publisher" => "Ballantine Books",
+        "publication_date" => "2016-06-26",
         "pages" => 320
-    ]
-    // More books will be added here... hoihoi
+    ],
+    [
+        "title" => "Project Hail Mary",
+        "author" => "Andy Weir",
+        "isbn" => "	978-0-593-39556-1 ",
+        "publisher" => "Ballantine Books",
+        "publication_date" => "2021-05-04",
+        "pages" => 496
+    ],
+    [
+        "title" => "Do Androids Dream of Electric Sheep",
+        "author" => "Phil K. Dick",
+        "isbn" => "978-1780220383 ",
+        "publisher" => "Gollancz",
+        "publication_date" => "1968-02-24",
+        "pages" => 876
+    ],
 ];
 
